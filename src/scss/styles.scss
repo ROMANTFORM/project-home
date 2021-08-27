@@ -1,0 +1,55 @@
+@import "_colors.scss";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import "header";
+@import "home";
+@import "about";
+@import "tasks";
+@import "project";
+@import "form";
+@import "footer";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+.btn {
+  width: 222px;
+  height: 71px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+
+  &::after {
+    display: inline-block;
+    content: "\2192";
+  }
+}
+input {
+  width: 391px;
+  height: 40px;
+  background-color: $bgc-input;
+  border: none;
+  margin-bottom: 10px;
+  padding-left: 21px;
+  padding-top: 14px;
+}
+form {
+  width: 391px;
+  height: 369px;
+}
+textarea {
+  width: 391px;
+  height: 95px;
+  background-color: $bgc-input;
+  border: none;
+  margin-bottom: 22px;
+  padding-left: 21px;
+  padding-top: 14px;
+}
+a {
+  cursor: pointer;
+}

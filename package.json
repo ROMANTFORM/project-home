@@ -1,0 +1,24 @@
+{
+  "name": "projhome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss:watch": "node-sass --watch src/scss/styles.scss -o src/css",
+    "scss:build": "node-sass src/scss/styles.scss -o src/css",
+    "build": "npm run scss:build && npm run scss:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ROMANTFORM/project-home.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ROMANTFORM/project-home/issues"
+  },
+  "homepage": "https://github.com/ROMANTFORM/project-home#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
