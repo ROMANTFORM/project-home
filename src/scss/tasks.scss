@@ -1,0 +1,39 @@
+.tasks {
+  width: 1170px;
+  margin: 0 auto 120px;
+}
+.task-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.tasks-title {
+  color: $sweet-grey;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 300;
+}
+.task-1,
+.task-2 {
+  width: 500px;
+  height: 144px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0;
+}
+.task-1__number,
+.task-2__number {
+  height: 140px;
+  color: $ligtn-grey;
+  font-size: 200px;
+  line-height: 130px;
+  font-weight: 700;
+  display: inline-block;
+  margin-right: 30px;
+}
+.task-1__text,
+.task-2__text {
+  font-size: 22px;
+  line-height: 36px;
+  color: $color-grey;
+}

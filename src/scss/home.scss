@@ -1,0 +1,50 @@
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.home-title {
+  font-size: 64px;
+  font-weight: 300;
+  color: $sweet-grey;
+}
+.home-title__span {
+  color: $color-grey;
+  font-size: 64px;
+  font-weight: 700;
+}
+.home-btn__left,
+.home-btn__right {
+  width: 53px;
+  height: 53px;
+  border: none;
+  margin-right: 24px;
+  cursor: pointer;
+  background-color: #fff;
+}
+.home-btn__left::after {
+  display: inline-block;
+  content: "\2190";
+}
+.home-btn__right::after {
+  display: inline-block;
+  content: "\2192";
+}
+.home-numbers {
+  color: $sweet-grey;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 94px;
+}
+.home-btn {
+  margin-top: 758px;
+  color: $color-grey;
+  background-color: #fff;
+}
+
+.home-img-wrap {
+  width: 770px;
+  height: 829px;
+  background-image: url("../img/images/Rectangle\ 6.jpg");
+}

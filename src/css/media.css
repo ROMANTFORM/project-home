@@ -1,0 +1,71 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    width: 767px;
+    margin: 0;
+    padding: 0; }
+  .trigram {
+    font-size: 40px;
+    text-decoration: none; }
+  .header {
+    min-width: 320px;
+    display: flex;
+    justify-content: space-around; }
+  .nav-mobile-wrap {
+    display: block; }
+  .mob-nav {
+    display: none; }
+  .nav {
+    display: none; }
+  .home {
+    position: relative; }
+  .home-title-wrap {
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    left: 0; }
+  .about-img-wrap {
+    width: 200px;
+    flex-wrap: wrap;
+    align-content: center; }
+  .about-img1,
+  .about-img2,
+  .about-img3 {
+    width: 90px;
+    height: auto; }
+  .tasks {
+    width: 320px;
+    margin: 0; }
+  .task-wrap {
+    min-width: 320px;
+    margin-bottom: 120px; }
+  .task-1,
+  .task-2 {
+    height: auto;
+    margin-bottom: 50px; }
+  .projects {
+    width: 320px;
+    margin: 0; }
+  .projects-img__wrap {
+    width: 320px;
+    height: auto; }
+  .projects-img {
+    width: 320px; }
+  .projects-btn {
+    margin: 0; }
+  .form-img {
+    display: none; }
+  .footer-wrap {
+    width: 320px;
+    margin: 0; }
+  .footer-logo {
+    display: none; }
+  .footer-info,
+  .footer-contacts,
+  .footer-social {
+    width: 80px; } }
+
+@media (min-width: 768px) and (max-width: 960px) {
+  body {
+    width: 960px; }
+  .header {
+    min-width: 768px; } }

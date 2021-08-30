@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"></a>
+        <div class="nav-mobile-wrap">
+            <a href="#" class="trigram">&#9776</a>
+            <nav class="mob-nav">
+                <li class="mob-nav-item"><a class="mob-nav-item__link" href="#">Главная</a></li>
+                <li class="mob-nav-item"><a class="mob-nav-item__link" href="#">Галерея</a></li>
+                <li class="mob-nav-item"><a class="mob-nav-item__link" href="#">Проекты</a></li>
+                <li class="mob-nav-item"><a class="mob-nav-item__link" href="#">Сертификаты</a></li>
+                <li class="mob-nav-item"><a class="mob-nav-item__link" href="#">Контакты</a></li>
+            </nav>
+        </div>
+        <nav class="nav">
+            <li class="nav-item"><a class="nav-item__link" href="#">Главная</a></li>
+            <li class="nav-item"><a class="nav-item__link" href="#">Галерея</a></li>
+            <li class="nav-item"><a class="nav-item__link" href="#">Проекты</a></li>
+            <li class="nav-item"><a class="nav-item__link" href="#">Сертификаты</a></li>
+            <li class="nav-item"><a class="nav-item__link" href="#">Контакты</a></li>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-title-wrap">
+            <h2 class="home-title">Project
+                <br/>
+                <span class="home-title__span">Home</span> 
+            </h2>
+            <div class="home-controls-wrap">   
+                <button class="home-btn__left"></button>
+                <button class="home-btn__right"></button>
+                <div class="home-numbers">01  /  02</div>
+            </div> 
+        </div>
+
+        <div class="home-img-wrap">
+            <button class="home-btn btn">Взглянуть </button>
+        </div>
+
+    </section>
+
+    <section class="about">
+        <div class="about-img-wrap">
+            <img src="./img/images/Rectangle 8.jpg" alt="img" class="about-img1 about-img">
+            <img src="./img/images/Rectangle 9.jpg" alt="img" class="about-img2 about-img">
+            <img src="./img/images/Rectangle 10.jpg" alt="img" class="about-img3 about-img">
+
+        </div>
+        <div class="about-info">
+            <h3 class="about-title">О компании</h3>
+            <p class="about-info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged.</p>
+            <button class="about-btn btn">Читать </button>
+        </div>
+    </section>
+
+    <section class="tasks">
+        <h3 class="tasks-title">Основные задачи</h3>
+        <div class="task-wrap">
+            <div class="task-1">
+            <div class="task-1__number">1</div>
+            <p class="task-1__text">Создание комфортных условий и повышение качества обслуживания клиентов</p>
+        </div>
+        <div class="task-2">
+            <div class="task-2__number">2</div>
+            <p class="task-2__text">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и
+            усиленной рекламы на рынке</p>
+        </div>
+        </div>
+        
+    </section>
+
+    <section class="projects">
+        <h3 class="projects-title">Наши проекты</h3>
+        <div class="projects-img__wrap">
+            <div class="img-wrap">
+                <img src="./img/images/Rectangle 12.jpg" alt="pic" class="projects-img">
+                <div class="img-wrap-hover">
+                    <h3 class="img-wrap-hover__title">Досуговый центр</h3>
+                    <button class="img-wrap-hover__btn">Подробнее </button>
+                </div>
+            </div>
+            <div class="img-wrap">
+                <img src="./img/images/image 15.jpg" alt="pic" class="projects-img">
+                <div class="img-wrap-hover">
+                    <h3 class="img-wrap-hover__title">Зеленый театр</h3>
+                    <button class="img-wrap-hover__btn">Подробнее </button>
+                </div>
+            </div>
+            <div class="img-wrap">
+                <img src="./img/images/image 16.jpg" alt="pic" class="projects-img">
+                <div class="img-wrap-hover">
+                    <h3 class="img-wrap-hover__title">Корт</h3>
+                    <button class="img-wrap-hover__btn">Подробнее </button>
+                </div>
+            </div>
+            <div class="img-wrap">
+                <img src="./img/images/image 17.jpg" alt="pic" class="projects-img">
+                <div class="img-wrap-hover">
+                    <h3 class="img-wrap-hover__title">Жилой фонд</h3>
+                    <button class="img-wrap-hover__btn">Подробнее </button>
+                </div>
+            </div>
+            <div class="img-wrap">
+                <img src="./img/images/image 18.jpg" alt="pic" class="projects-img">
+                <div class="img-wrap-hover">
+                    <h3 class="img-wrap-hover__title">Арт-пространство</h3>
+                    <button class="img-wrap-hover__btn">Подробнее </button>
+                </div>
+            </div>
+        </div>
+        <button class="projects-btn btn">Все проекты </button>
+    </section>
+
+    <section class="form">
+        <h3 class="form-title">Связаться с нами</h3>
+        <div class="form-wrap">
+           <form >
+            <input type="text" name="name" id="name" placeholder="Имя*">
+            <input type="text" name="tel" id="tel" placeholder="Номер телефона*">
+            <input type="text" name="email" id="email" placeholder="E-mail*">
+            <input type="text" name="text" id="text" placeholder="Интересующий товар/услуга">
+            <textarea id="msg" name="user_message" placeholder="Сообщение*"></textarea>
+            <!-- <p class="form-text">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p> -->
+        </form> 
+        <img src="./img/images/image 12.jpg" alt="form img" class="form-img">
+        </div>
+        <p class="form-text">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p>
+        <button class="form-btn btn">Отправить </button>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-wrap">
+           <div class="footer-logo">
+            <a href="#" class="footer-logo"></a>
+        </div>
+        <div class="footer-info">
+            <h4 class="footer-info__title">Информация</h4>
+            <ul class="footer-list">
+                <li class="footer-list__item">Главная</li>
+                <li class="footer-list__item">Галерея</li>
+                <li class="footer-list__item">Проекты</li>
+                <li class="footer-list__item">Сертификаты</li>
+                <li class="footer-list__item">Контакты</li>
+            </ul>
+        </div>
+        <div class="footer-contacts">
+            <h4 class="footer-info__title">Контакты</h4>
+                <ul class="contact-list">
+                    <li class="contact-list__item"><span class="span list-item__location"></span>100000, Республика Казахстан, г. Караганда, ул. Телевизионная 10</li>
+                    <li class="contact-list__item"><span class="span list-item__tel"></span>+38 (000) 000 00 00</li>
+                    <li class="contact-list__item"><span class="span list-item__mail"></span>mail@gmail.com</li>
+                </ul>
+        </div>
+        <div class="footer-social">
+            <h4 class="footer-info__title">Социальные сети</h4>
+            <ul class="social-list">
+                <li class="social-list__item"><a href="#" class="social-list__link facebook"></a></li>
+                <li class="social-list__item"><a href="#" class="social-list__link twitter"></a></li>
+                <li class="social-list__item"><a href="#" class="social-list__link linkedin"></a></li>
+                <li class="social-list__item"><a href="#" class="social-list__link pinterest"></a></li>
+            </ul>
+        </div> 
+        </div>
+        <div class="footer-down">
+            <p class="footer-down__text">© 2019 Digital Project. Все права защищены.</p>
+        </div>
+        
+    </footer>
+
+    
+</body>
+</html>

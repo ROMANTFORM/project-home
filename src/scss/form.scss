@@ -1,0 +1,31 @@
+.form-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+  width: 1170px;
+  margin: 0 auto 120px;
+}
+.form-title {
+  color: $sweet-grey;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 300;
+}
+.form-img {
+  display: block;
+  width: 749px;
+  height: 369px;
+}
+.form-text {
+  width: 331px;
+  margin-left: 40px;
+  margin-bottom: 21px;
+  font-size: 14px;
+  color: $color-grey;
+  font-weight: 300;
+}
+.form-btn {
+  background-color: $color-grey;
+  color: #fff;
+}

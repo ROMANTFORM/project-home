@@ -1,0 +1,108 @@
+.footer {
+  //   width: 1440px;
+  height: 417px;
+  padding-top: 58px;
+
+  background-color: $color-grey;
+  color: #fff;
+}
+.footer-wrap {
+  width: 1170px;
+  height: 347px;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  display: inline-block;
+  width: 145px;
+  height: 94px;
+  background-image: url("../img/logo/Group\ 11\ 1.png");
+}
+.footer-info {
+  //   display: inline-block;
+  width: 120px;
+}
+.footer-list,
+.contact-list,
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-list__item,
+.contact-list__item {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.contact-list__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer-contacts {
+  width: 250px;
+}
+.footer-social {
+  width: 200px;
+}
+.social-list__link,
+.span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+.social-list__item {
+  display: inline-block;
+  margin-right: 9px;
+}
+.facebook {
+  background-image: url("../img/icons/facebook.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.twitter {
+  background-image: url("../img/icons/twitter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.linkedin {
+  background-image: url("../img/icons/Linked\ In.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pinterest {
+  background-image: url("../img/icons/pinterest.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.list-item__location {
+  background-image: url("../img/icons/location.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 5px;
+}
+.list-item__tel {
+  background-image: url("../img/icons/tel.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 5px;
+}
+.list-item__mail {
+  background-image: url("../img/icons/mail.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 5px;
+}
+.footer-down {
+  height: 70px;
+  border-top: 1px solid $sweet-grey;
+}
+.footer-down__text {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba($color: #c8c8c8, $alpha: 0.5);
+}
